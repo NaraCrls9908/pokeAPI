@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import { useFetch } from './hooks/useFetch'
-import PokemonDetails from './components/PokemonDetails/pokemonDetails';
+import PokemonDetails from './components/PokemonDetails/pokemonDetails'
 
 function App() {
   const [pokeData, getAPI] = useFetch();
